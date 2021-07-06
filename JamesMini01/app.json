@@ -1,0 +1,45 @@
+{
+  "pages":[  
+    "pages/index/index",
+    "pages/demo02/demo02",
+    "pages/demo01/demo01",  
+    "pages/img/img",
+    "pages/shoppingcart/shoppingcart",
+    "pages/mine/mine",
+    "pages/search/search",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#666666",
+    "navigationBarTitleText": "James Shopping Mall",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": true,
+    "backgroundColor": "#999999"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "icons/首页-0.png",
+      "selectedIconPath": "icons/首页-1.png"
+    },
+    {
+      "pagePath": "pages/shoppingcart/shoppingcart",
+      "text": "购物车",
+      "iconPath": "icons/购物车-0.png",
+      "selectedIconPath": "icons/购物车-1.png"
+    },
+    {
+      "pagePath": "pages/mine/mine",
+      "text": "我的",
+      "iconPath": "icons/我的-0.png",
+      "selectedIconPath": "icons/我的-1.png"
+    }],
+    "color": "#0094ff",
+    "selectedColor": "#ff9400",
+    "backgroundColor": "#999999",
+    "position": "bottom"
+  },
+  "sitemapLocation": "sitemap.json"
+}
