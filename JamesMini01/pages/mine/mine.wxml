@@ -1,2 +1,62 @@
 <!--pages/mine/mine.wxml-->
-<text>pages/mine/mine.wxml</text>
+<!-- <text>pages/mine/mine.wxml</text> -->
+
+
+<!-- 字符串 -->
+<view>---- 字符串 ----</view>
+<view>{{msg}}</view>
+
+<!-- 数字 -->
+<view>---- 数字 ----</view>
+<view>number: {{number}}</view>
+
+<!-- 布尔值 -->
+<view>---- 布尔值 ----</view>
+<view>she is a girl: {{isGirl}}</view>
+
+<!-- object类型 -->
+<view>---- object类型 ----</view>
+<view>name: {{person.name}}</view>
+<view>age: {{person.age}}</view>
+<view>height: {{person.height}} cm</view>
+<view>weight: {{person.weight}} kg</view>
+
+<!-- 在标签的属性中使用 -->
+<view>---- 在标签的属性中使用 ----</view>
+<view data-num="{{number}}">自定义属性</view>
+
+<!-- 使用布尔类型充当属性 -->
+<view>---- 使用布尔类型充当属性 ----</view>
+<view>
+    <checkbox checked="{{isChecked}}"></checkbox>
+</view>
+
+<!-- 运算 => 表达式 -->
+<view>---- 运算 => 表达式----</view>
+<view>{{1+1}}</view>
+<view>{{'1'+'1'}}</view>
+<view>{{10%2===0 ? '偶数':'奇数'}}</view>
+
+<!-- 列表循环 -->
+<view>---- 列表循环 ----</view>
+<view>
+    <view wx:for="{{list}}" wx:for-item="item" wx:for-index="index" wx:key="id">
+        索引：{{index}} --> 值：{{item.name}}
+    </view>
+</view>
+
+<!-- 对象循环 -->
+<view>
+    <view>---- 对象循环 ----</view>
+    <view wx:for="{{person}}">
+        属性：{{index}} --> 值：{{item}}
+    </view>
+</view>
+
+<!-- 对象循环 -->
+<view>
+    <view>---- 对象循环 ----</view>
+    <view wx:for="{{person}}" wx:for-item="value" wx:for-index="key" wx:key="age">
+        属性：{{key}} --> 值：{{value}}
+    </view>
+</view>

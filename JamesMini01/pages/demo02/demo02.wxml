@@ -2,8 +2,12 @@
     text不会换行
     view相当于html中的div标签
 -->
-<text>1</text>
+<!-- <text>1</text>
 <text>2</text>
 <text>3</text>
 <view>1</view>
-<view>2</view>
+<view>2</view> -->
+
+
+<!-- 字符串 -->
+<view>{{msg}}</view>
