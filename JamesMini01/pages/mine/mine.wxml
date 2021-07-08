@@ -60,3 +60,24 @@
         属性：{{key}} --> 值：{{value}}
     </view>
 </view>
+
+<!-- 条件渲染 
+    1.  当标签不是频繁的切换显示，优先使用wx:if
+        直接把标签从页面移除掉
+    2.  当标签频繁的切换显示，优先使用hidden
+        通过添加样式的方式来切换显示
+-->
+<view>
+    <view>---- 条件渲染 ----</view>
+    <view wx:if="{{true}}">显示</view>
+    <view wx:if="{{false}}">隐藏</view>
+
+    <view wx:if="{{false}}">1</view>
+    <view wx:elif="{{false}}">2</view>
+    <view wx:else>3</view>
+
+    <view hidden>hidden1 ----</view>
+    <view hidden="{{true}}">hidden2</view>    
+    <view hidden="{{false}}">hidden3</view>
+
+</view>

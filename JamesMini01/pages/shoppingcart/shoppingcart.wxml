@@ -1,2 +1,9 @@
-<!--pages/shoppingcart/shoppingcart.wxml-->
-<text>pages/shoppingcart/shoppingcart.wxml</text>
+<!-- 事件绑定 
+      1. 输入框绑定关键字 bindinput
+      2. 点击事件
+        无法在小程序的事件中直接传参，必须通过自定义属性来传参
+-->
+<input type="text" bindinput="handleInput"/>
+<button bindtap="handleTap" data-input="{{1}}">+</button>
+<button bindtap="handleTap" data-input="{{-1}}">-</button>
+<view>{{num}}</view>
