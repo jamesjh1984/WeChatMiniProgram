@@ -1,0 +1,39 @@
+/* pages/demo03/demo03.wxss */
+
+
+/*  一：自定义样式
+    px: 大小是不会随着屏幕改变的
+    rpx: 会随着屏幕的改变动态调整大小
+    calc: 根据页面动态计算
+*/
+
+
+/* view{
+    width: 200px;
+    height: 200px;
+    font-size: 40px;
+    background-color: aqua;
+}   */
+
+/* view{
+    width: 200rpx;
+    height: 200rpx;
+    font-size: 40rpx;
+    background-color: aqua;
+}   */
+
+/* view{
+    width: calc(750rpx * 100 / 375);
+    height: 200rpx;
+    font-size: 40rpx;
+    background-color: aqua;
+}   */
+
+
+
+
+
+/*  二：引入样式
+    @import 引入
+*/
+@import "../../styles/common.wxss";

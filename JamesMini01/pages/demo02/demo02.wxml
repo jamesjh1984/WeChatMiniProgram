@@ -1,13 +1,9 @@
-<!--
-    text不会换行
-    view相当于html中的div标签
+<!-- 事件绑定 
+      1. 输入框绑定关键字 bindinput
+      2. 点击事件
+        无法在小程序的事件中直接传参，必须通过自定义属性来传参
 -->
-<!-- <text>1</text>
-<text>2</text>
-<text>3</text>
-<view>1</view>
-<view>2</view> -->
-
-
-<!-- 字符串 -->
-<view>{{msg}}</view>
+<input type="text" bindinput="handleInput"/>
+<button bindtap="handleTap" data-input="{{1}}">+</button>
+<button bindtap="handleTap" data-input="{{-1}}">-</button>
+<view>{{num}}</view>

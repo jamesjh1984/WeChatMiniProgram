@@ -5,37 +5,9 @@ Page({
      * 页面的初始数据
      */
     data: {
-        msg: 'Hello, 热巴.',
-        number: 1000,
-        isGirl: true,
-        person: {
-            name: "热巴",
-            age: 18,
-            height: 160,
-            weight: 50
-        },
-        isChecked: true,
-        list:[
-            {
-                id:0,
-                name:"pig"
-            },
-            {
-                id:1,
-                name:"wolf"
-            },
-            {
-                id:2,
-                name:"tiger"
-            }
-        ]
+        
     },
-
-
-
-
     
-
     /**
      * 生命周期函数--监听页面加载
      */
