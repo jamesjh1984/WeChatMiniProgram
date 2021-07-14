@@ -6,6 +6,7 @@
     "pages/demo03/demo03",  
     "pages/demo04/demo04",  
     "pages/demo05/demo05",  
+    "pages/demo06/demo06",  
     "pages/img/img",
     "pages/shoppingcart/shoppingcart",
     "pages/mine/mine",
@@ -46,8 +47,8 @@
       "selectedIconPath": "icons/分类-1.png"
     },
     {
-      "pagePath": "pages/demo05/demo05",
-      "text": "Demo05",
+      "pagePath": "pages/demo06/demo06",
+      "text": "Demo06",
       "iconPath": "icons/分类-0.png",
       "selectedIconPath": "icons/分类-1.png"
     }],

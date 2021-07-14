@@ -1,0 +1,17 @@
+
+<!-- 
+  navigator 标签，跳转页面，相当于web中的<a href>标签
+    1. url 当前小程序内的跳转链接
+    2. target 在哪个目标上发生跳转，默认当前小程序, 默认值self，也可以选择其他小程序
+    3. open-type 跳转方式， 默认值 navigate
+        navigate 保留当前页面，跳转到应用内的某个页面。但是不能跳到 tabbar 页面。左上角有返回按钮。
+        redirect 关闭当前页面，跳转到应用内的某个页面。但是不允许跳转到 tabbar 页面。左上角没有返回按钮，只有主页按钮。
+        switchTab 跳转到 tabBar 页面，并关闭其他所有非 tabBar 页面
+        reLaunch 关闭所有页面，打开到应用内的某个页面
+        navigateBack 关闭当前页面，返回上一页面或多级页面。可通过 getCurrentPages 获取当前的页面栈，决定需要返回几层。
+-->
+<navigator url="/pages/demo05/demo05">跳转至Demo5轮播图页面 navigate</navigator>
+<navigator url="/pages/index/index">跳转至tabbar页面, 无反应</navigator>
+<navigator open-type="redirect" url="/pages/demo05/demo05">跳转至Demo5轮播图页面 redirect</navigator>
+<navigator open-type="switchTab" url="/pages/index/index">跳转至tabbar页面 switchTab</navigator>
+<navigator open-type="reLaunch" url="/pages/index/index">可以随便跳转页面 reLaunch</navigator>
