@@ -1,0 +1,28 @@
+<!-- 
+    swiper 标签
+        1. swiper 轮播图外层容器，默认宽高： 375 * 150
+        2. swiper-item 内层每一个轮播项
+        3. image宽高： 520 * 280
+        4. swiper width / swiper height = image width / image height,
+           swiper height = swiper width * image height / image width
+           swiper height = 100vw * 280 / 520
+        5. autoplay 自动轮播
+        6. interval 单位ms, 默认5000毫秒=5秒, 修改轮播时间为2秒
+        7. circular 衔接轮播
+        8. indicator-dots 显示面板指示点
+        9. indicator-active-color 选中指示点颜色
+-->
+<swiper autoplay interval="2000" circular indicator-dots indicator-active-color="#ff2121">
+    <swiper-item>
+        <image border="0" mode="widthFix" src="https://img.alicdn.com/imgextra/i1/6000000008079/O1CN01kotcXe29YEVObhi37_!!6000000008079-0-octopus.jpg" />
+    </swiper-item>
+    <swiper-item>
+        <image border="0" mode="widthFix" src="https://aecpm.alicdn.com/simba/img/TB1XotJXQfb_uJkSnhJSuvdDVXa.jpg" />
+    </swiper-item>
+    <swiper-item>
+        <image border="0" mode="widthFix" src="https://aecpm.alicdn.com/simba/img/TB1JNHwKFXXXXafXVXXSutbFXXX.jpg" />
+    </swiper-item>
+    <swiper-item>
+        <image border="0" src="https://aecpm.alicdn.com/simba/img/TB183NQapLM8KJjSZFBSutJHVXa.jpg" />
+    </swiper-item>
+</swiper>

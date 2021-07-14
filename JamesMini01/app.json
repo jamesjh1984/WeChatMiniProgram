@@ -5,6 +5,7 @@
     "pages/demo02/demo02",
     "pages/demo03/demo03",  
     "pages/demo04/demo04",  
+    "pages/demo05/demo05",  
     "pages/img/img",
     "pages/shoppingcart/shoppingcart",
     "pages/mine/mine",
@@ -45,13 +46,13 @@
       "selectedIconPath": "icons/分类-1.png"
     },
     {
-      "pagePath": "pages/demo04/demo04",
-      "text": "Demo04",
+      "pagePath": "pages/demo05/demo05",
+      "text": "Demo05",
       "iconPath": "icons/分类-0.png",
       "selectedIconPath": "icons/分类-1.png"
     }],
-    "color": "#0094ff",
-    "selectedColor": "#ff9400",
+    "color": "#000000",
+    "selectedColor": "#ff2121",
     "backgroundColor": "#999999",
     "position": "bottom"
   },

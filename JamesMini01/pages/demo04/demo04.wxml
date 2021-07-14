@@ -1,5 +1,5 @@
 <!-- 
-    text标签
+    text 标签
         1. selectable 长按文本复制
         2. decode对文本内容进行解码
 -->
@@ -10,7 +10,7 @@
 
 
 <!-- 
-    image标签
+    image 标签
         1. src 指定要加载图片的路径
         2. mode 决定图片内容和图片标签宽高如何做适配
             scaleToFill 默认值，直接拉伸至宽高
