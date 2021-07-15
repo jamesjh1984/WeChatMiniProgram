@@ -1,0 +1,52 @@
+<!-- 
+button 标签
+  1. 外观属性
+      size: default	  默认大小	
+            mini	    小尺寸
+      type: default   灰色
+            primary   绿色
+            warn      红色
+      plain: 按钮是否镂空，背景色透明
+      loading: 名称前是否带 loading 图标
+-->
+<button>Yes</button>
+<button size="mini">mini</button>
+
+<button size="mini" type="default">default</button>
+<button size="mini" type="primary">primary</button>
+<button size="mini" type="warn">warn</button>
+
+<button size="mini" type="warn" plain>plain</button>
+
+<button size="mini" type="warn" loading>loading</button>
+
+
+
+<!-- 
+button 标签
+  open_type:
+    contact	打开客服会话，如果用户在会话中点击消息卡片后返回小程序，可以从 bindcontact 回调中获得具体信息，具体说明 （小程序插件中不能使用）
+      1. 只能通过真机调试来打开
+    share	触发用户转发，使用前建议先阅读使用指引，不能分享到朋友圈
+    getPhoneNumber	获取用户手机号，非企业小程序账号，没有权限获取手机号码
+      1. 可以从bindgetphonenumber回调中获取到用户信息
+      2. 获取的信息以及加密
+      3. 需要用户自己搭建小程序的后台服务器，在后台服务器中进行解析手机号码，返回小程序中
+    getUserInfo	获取用户信息，可以从bindgetuserinfo回调中获取到用户信息 （小程序插件中不能使用）
+      可以直接获取，不存在加密字段
+    launchApp	打开APP，可以通过app-parameter属性设定向APP传的参数具体说明
+      1. 需要先在app中通过某个链接打开小程序
+      2. 然后再小程序中通过这个功能重新打开app
+      3. 可以用京东app和京东小程序尝试
+    openSetting	打开授权设置页
+      1. 授权页面中只会出现用户曾经点击过的权限
+    feedback	打开“意见反馈”页面，用户可提交反馈内容并上传日志，开发者可以登录小程序管理后台后进入左侧菜单“客服反馈”页面获取到反馈内容
+      1. 只能通过真机调试来打开
+-->
+<button open-type="contact">contact</button>
+<button open-type="share">share</button>
+<button open-type="getPhoneNumber" bindgetphonenumber="getPhoneNumber">getPhoneNumber</button>
+<button open-type="getUserInfo" bindgetuserinfo="getUserInfo">getUserInfo</button>
+<button open-type="launchApp">launchApp</button>
+<button open-type="openSetting">openSetting</button>
+<button open-type="feedback">feedback</button>

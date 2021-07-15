@@ -7,6 +7,8 @@
     "pages/demo04/demo04",  
     "pages/demo05/demo05",  
     "pages/demo06/demo06",  
+    "pages/demo07/demo07",  
+    "pages/demo08/demo08",  
     "pages/img/img",
     "pages/shoppingcart/shoppingcart",
     "pages/mine/mine",
@@ -41,14 +43,14 @@
       "selectedIconPath": "icons/我的-1.png"
     },
     {
-      "pagePath": "pages/demo01/demo01",
-      "text": "Demo01",
+      "pagePath": "pages/demo05/demo05",
+      "text": "Demo05",
       "iconPath": "icons/分类-0.png",
       "selectedIconPath": "icons/分类-1.png"
     },
     {
-      "pagePath": "pages/demo06/demo06",
-      "text": "Demo06",
+      "pagePath": "pages/demo08/demo08",
+      "text": "Demo08",
       "iconPath": "icons/分类-0.png",
       "selectedIconPath": "icons/分类-1.png"
     }],
