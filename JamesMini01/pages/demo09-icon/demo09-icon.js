@@ -1,4 +1,4 @@
-// pages/demo06/demo06.js
+// pages/demo09-icon/demo09-icon.js
 Page({
 
   /**

@@ -1,4 +1,4 @@
-// pages/demo05/demo05.js
+// pages/demo06-navigator/demo06-navigator.js
 Page({
 
   /**
